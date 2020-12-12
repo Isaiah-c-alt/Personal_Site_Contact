@@ -1,16 +1,18 @@
-let name=prompt("Please enter your name: ");
-if (name=="")
-{
-  userName="User";
-}
-else
-{
-  name[0].toUpperCase()+name.slice(1);
-  var capitalize = (str) => str[0].toUpperCase() + str.slice(1).toLowerCase();
-  var userName=name.split(' ').map(capitalize).join(' ');
-}
-alert("Welcome to my site, "+userName);
-alert("I am not comfortable with putting private information online the information here is all fake or not mine.");
+setTimeout(function (){
+  let name=prompt("Please enter your name: ");
+  if (name=="")
+  {
+    userName="User";
+  }
+  else
+  {
+    name[0].toUpperCase()+name.slice(1);
+    var capitalize = (str) => str[0].toUpperCase() + str.slice(1).toLowerCase();
+    var userName=name.split(' ').map(capitalize).join(' ');
+  }
+  alert("Welcome to my site, "+userName);
+  alert("I am not comfortable with putting private information online the information here is all fake or not mine.");
+}, 100);
 
 var feedback;
 var string;
