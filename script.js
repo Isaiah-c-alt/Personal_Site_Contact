@@ -12,7 +12,7 @@ setTimeout(function (){
   }
   alert("Welcome to my site, "+userName);
   alert("I am not comfortable with putting private information online the information here is all fake or not mine.");
-}, 100);
+}, 250);
 
 var feedback;
 var string;
